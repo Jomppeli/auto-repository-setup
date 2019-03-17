@@ -4,11 +4,6 @@ import getpass
 
 data = open('data.txt')
 
-#data = {"message":"testing","committer":
-#{"name":"jones",
-#"email":"jo@nes"},
-#"content":"bXkgbmV3IGZpbGUgY29udGVudHM="}
-
 filename = input("Filename: ")
 username = input("Username: ")
 password = getpass.getpass("Password: ")
