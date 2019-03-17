@@ -5,7 +5,7 @@ import requests
 #url = "https://api.github.com/repos/jomppeli/cheatsheet/readme"
 
 url = "https://api.github.com/repos/jomppeli/cheatsheet/contents/test/test"
-headers = {"Authorization":"token f6e77b894866e4139fab5b8bb9d4c52db27ec968"}
+headers = {"Authorization":"token tiojhoih"}
 
 data = {
   "message": "my commit message",
