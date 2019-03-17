@@ -10,7 +10,7 @@ Parameters:
 - description
 - readme   
   
-Done with Python3 using the Github API. 
+Done with Python3 scripts and later using the Github API. 
   
 [API documentation](https://developer.github.com/v3/) from Github.  
 [My synopsis]().
