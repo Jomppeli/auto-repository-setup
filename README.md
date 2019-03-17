@@ -32,7 +32,9 @@ Done with Python3 using the Github API.
   - **dev**
     - **resources**
       - **data**
+        - example.json
       - **python**
+        - example.py
   - README.md
   - documentation.md
   - sketchbook.md
