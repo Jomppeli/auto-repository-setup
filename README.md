@@ -1,7 +1,14 @@
 # auto-repository-setup
 <img src="https://img.shields.io/github/languages/top/jomppeli/auto-repository-setup.svg?style=for-the-badge"> <img src="https://img.shields.io/github/repo-size/jomppeli/auto-repository-setup.svg?style=for-the-badge"> <img src="https://img.shields.io/github/issues/jomppeli/auto-repository-setup.svg?style=for-the-badge">  
   
-Script to automatically setup a repository from command line with a wanted file structure. Takes project type (wanted file structure), repository name, description and a readme info as a parameters. 
+  
+Script to automatically setup a repository from command line with a wanted file structure.  
+Parameters:
+- repository name
+- wanted file structure (html/python project)
+- public/private
+- description
+- readme   
   
 Done with Python3 using the Github API. 
   
