@@ -1,6 +1,7 @@
 ## #3 **Added to issues**
 **TODO**:  
-Write a script that creates the wanted file structure to a already existing repository. So no need to create the repository from the command line, just create the file structure.
+Write a script that creates the wanted file structure to a already existing repository. So no need to create the repository from the command line, just create the file structure.  
+Try it out by using the API and also just using mkdir and touch commands.
 
 ## #2 
 Did some test scripts and shit. Legit request keeps givin me 404 so that needs to be sorted out. 
