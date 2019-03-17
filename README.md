@@ -8,7 +8,8 @@ Parameters:
 - wanted file structure (html/python project)
 - public/private
 - description
-- readme   
+- readme
+- more
 
 Goal is to do it with Python3 using the Github API. 
   
