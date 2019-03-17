@@ -12,6 +12,9 @@ Parameters:
   
 Done with Python3 using the Github API. 
   
+[API documentation](https://developer.github.com/v3/) from Github.  
+[My synopsis]().
+  
 ## File structure
 ### HTML, Javascript, PHP project
 - **Project 1**
@@ -31,7 +34,11 @@ Done with Python3 using the Github API.
     - **vendors**
       - library.js
     - index.html/php
-  - full-documentation.md
+  - **documentation**
+    - example.md
+    - **docs**
+      - example.docs
+      - example.pdf
   - README.md
   - sketchbook.md  
   - TASKLIST.md???
