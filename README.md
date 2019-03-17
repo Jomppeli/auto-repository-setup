@@ -1,6 +1,7 @@
 # auto-repository-setup
 Script to automatically setup a repository from command line with a wanted file structure. Takes repository name, description and a readme info as a parameters. 
   
+Done with Python3 using the Github API. 
   
 ## File structure
 ### HTML, Javascript, PHP project
