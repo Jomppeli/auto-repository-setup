@@ -10,11 +10,18 @@ Parameters:
 - description
 - readme   
   
-Done with Python3 scripts and later using the Github API. 
+Done with Python3 using the Github API. 
   
 [API documentation](https://developer.github.com/v3/) from Github.  
 [My synopsis]().
   
+  
+## Script pipeline
+- Take the needed parameters from the user
+- Add the parameters to a text file (json parse not working)
+- Add a new repository with the parameters that user inputs
+- Add the directories and example files
+
 ## File structure
 ### HTML, Javascript, PHP project
 - **Project 1**
