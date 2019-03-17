@@ -15,7 +15,14 @@ Goal is to do it with Python3 using the Github API.
   
 [API documentation](https://developer.github.com/v3/) from Github.  
 [My synopsis]().
+
+## First version (add the file structure to a existing repository)
+Script that adds the wanted file structure to a existing repository, so there is no need to create the repo form command line in this version.  
   
+Test different approaches:
+- Cloning the repo and 
+- mkdir/touch creating the structure
+- or use the Github API to create the file structure
   
 ## Script pipeline
 - Take the needed parameters from the user
