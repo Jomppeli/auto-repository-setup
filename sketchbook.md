@@ -1,3 +1,15 @@
+## #4 
+Make it possible to write the wanted file structure when asked and make the script to follow that.  
+For example just writing simply the directory names and file names to a file with proper indetations and reading from the file.  
+  
+Example:
+- directory
+  - file.txt
+  - directory
+    - file.pdf
+  
+Then the script reads that from the file and creates the wanted file structure.
+
 ## #3 **Added to issues**
 **TODO**:  
 Write a script that creates the wanted file structure to a already existing repository. So no need to create the repository from the command line, just create the file structure.  
