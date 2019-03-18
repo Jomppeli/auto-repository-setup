@@ -26,8 +26,6 @@ Test different approaches:
   
 ## Script pipeline
 - Take the needed parameters from the user
-- Add the parameters to a text file (json parse not working)
-- Add a new repository with the parameters that user inputs
 - Add the directories and example files
 
 ## File structure
