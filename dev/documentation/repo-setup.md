@@ -7,6 +7,7 @@
   - .json
   - etc
 - Make it possible to select different file structures and make it possible to preview those
+- Make it possible to add own file structures
 ### API Test version 1.00 | WORKING
 - Ask the github token/username and password
 - Aks the name of the repository (need to already exist)
