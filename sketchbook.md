@@ -1,3 +1,6 @@
+## #5
+Made a new repo for testing named "testing". Also started to document the versions and features to the documentation directory.
+
 ## #4 
 Make it possible to write the wanted file structure when asked and make the script to follow that.  
 For example just writing simply the directory names and file names to a file with proper indetations and reading from the file.  
