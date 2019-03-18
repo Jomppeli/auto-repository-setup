@@ -1,6 +1,7 @@
 import requests
 import json
 import getpass
+import subprocess
 
 data1 = open('example.txt')
 
@@ -32,4 +33,7 @@ response3=requests.put('https://api.github.com/repos/%s/%s/contents/test/dev/res
 data3, auth=(username, password))
 print(response3)
 print(response3.json())
+print("Cloning the repository")
+subprocess.run(["git","clone","https://github.com/%s/%s" % (username,repo)])
+print("\nDone!\nGo ahead and check that the file structure is correct.")
 
