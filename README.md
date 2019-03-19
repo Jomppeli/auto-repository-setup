@@ -65,12 +65,12 @@ Added!
 All done! Enjoy your beautiful file structure. <3
 ```
 The created structure in Github:  
-![image_header](src/dev/documentation/images/2.PNG "File structure") 
+![image_header](https://github.com/Jomppeli/auto-repository-setup/blob/master/dev/documentation/images/2.PNG)
   
 
 The script recognizes the given file extensions and uses pre defined example files in the directories.  
 Example the JSON file:  
-![image_header](src/dev/documentation/images/3.PNG "JSON file")
+![image_header](https://github.com/Jomppeli/auto-repository-setup/blob/master/dev/documentation/images/3PNG)
 
 
 
