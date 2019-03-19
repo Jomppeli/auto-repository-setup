@@ -17,11 +17,19 @@ Go to the same directory in your command line tool and run the script:
 ```
 python3 test_version_1_01.py
 ```  
-  
-  
-### [1. Using predefined file structures](#Using-predefined-file-structures)
-### [2. Previewing the predefined file structures](#)
-### [3. Creating own file structures](#)
+
+```  
+What do you want to do?
+1. Use a predefined structure
+2. Preview the predefined structures
+3. Create your own
+4. Help
+0. Exit
+```  
+What to do? Follow the instructions below.   
+### [1: Using predefined file structures](#Using-predefined-file-structures)
+### [2: Previewing the predefined file structures](#)
+### [3: Creating own file structures](#)
 ---
 
 ### 1. Using predefined file structures
