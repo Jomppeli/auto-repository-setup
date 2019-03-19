@@ -1,3 +1,6 @@
+## #6 
+Added some issues for the future.
+
 ## #5
 Made a new repo for testing named "testing". Also started to document the versions and features to the documentation directory.
 
