@@ -8,10 +8,13 @@ Parameters:
 - wanted file structure (choose from predefined structures or create own)
 - username/password
 
-
-Goal is to do it with Python3 using the Github API. 
-  
-[API documentation](https://developer.github.com/v3/) from Github.  
+### How to use
+Copy the **python** folder from **auto-repository-setup/dev/resources** to your computer.  
+Go to the same directory in your command line tool and run the script:  
+```
+python test_version_1_01.py
+```  
+ 
 
 ## Example File structures
 ### HTML, Javascript, PHP project
