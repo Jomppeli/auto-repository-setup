@@ -4,31 +4,17 @@
   
 Script to automatically setup a repository from command line with a wanted file structure.  
 Parameters:
-- repository name
-- wanted file structure (html/python project)
-- public/private
-- description
-- readme
-- more
+- repository name (needs to exist)
+- wanted file structure (choose from predefined structures or create own)
+- username/password
+- more ?
 
 Goal is to do it with Python3 using the Github API. 
   
 [API documentation](https://developer.github.com/v3/) from Github.  
 [My synopsis]().
 
-## First version (add the file structure to a existing repository)
-Script that adds the wanted file structure to a existing repository, so there is no need to create the repo form command line in this version.  
-  
-Test different approaches:
-- Cloning the repo and 
-- mkdir/touch creating the structure
-- or use the Github API to create the file structure
-  
-## Script pipeline
-- Take the needed parameters from the user
-- Add the directories and example files
-
-## File structure
+## Example File structures
 ### HTML, Javascript, PHP project
 - **Project 1**
   - **dev**
