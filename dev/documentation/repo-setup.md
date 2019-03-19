@@ -1,6 +1,7 @@
 ## First version of the file structure script
 
 ### API Test version 1.02
+- Check the issues boii
 - Make it possible to clone the repository to a wanted location after the file structure has been created
 - **WRITE BETTER DOCUMENTATION**
 - DO SOME REFACTORING
