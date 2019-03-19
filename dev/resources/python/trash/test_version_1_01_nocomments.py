@@ -5,10 +5,6 @@ import subprocess
 import os
 
 def showExamples():
-    # Show the example structures
-    # Print every file in /structure folder
-    # Take out the file extension (.txt) and print only the name
-    
     print("\nChoose a structure: \n")
     files = os.listdir("structures")
     number = 1
@@ -22,7 +18,6 @@ def showExamples():
     chosenFile = files[int(project)-1]
     chosenFile = "structures/" + chosenFile
 
-    # Split every directory and file, and then print the line
     with open(chosenFile,'r') as exampleFile:
         data = exampleFile.read()
         data = data.split("%")
@@ -35,10 +30,6 @@ def showExamples():
                 break
 
 def createOwn():
-    # Get user input of structure creation and use it to create a wanted file structure
-    # Join every line and add "%" in between so it follows the same form as the example files
-    # e.g -project%--folder%---file
-    
     print("\nCreate your own file structure by giving an input and pressing enter.")
     print("Use dashes as an indentation to make nested structures.")
     print("For example:\n-Folder1\n--fileinfolder1.txt\n--folderinsidefolder1\n-Folder2")
@@ -49,8 +40,11 @@ def createOwn():
     inp2 = ""
     while True:
         inp = input(":")
+        
         if inp == "":
+            #print(inp2)
             cn = input("1. Continue\n2. Start over\n:")
+
             if cn == "1":
                 # function to save the created structure to use later
                 saveStructure(inp2)
@@ -76,7 +70,6 @@ def readStructure(structure):
         try:
             structureItem = structureArray[x]
             indentation = 0
-            # Count the dashes as a indentation, and use them to create the correct paths
             for char in structureItem:
                 if char == "-":
                     indentation += 1
@@ -113,26 +106,17 @@ def readStructure(structure):
     createStructure(fullPaths)
         
 def createStructure(fullPaths):
-    # Combine all the data and create the structure to the repository
-    # Get all the example files (jsexample.js etc)
-    
     with open("examplefiles/filenames/files.txt",'r') as exampleFile:
         fileNames = exampleFile.read()
     fileNames = json.loads(fileNames)
-    
     repo = input("Name of the repository: ")
     username = input("Username: ")
     password = getpass.getpass("Password: ")
-
-    # Iterate over the full paths
     for path in fullPaths:
         fileName = path.split("/")
         fileName = fileName[-1]
         fileType = fileName.split(".")
         fileType = fileType[1]
-        
-        # Iterate over the fileNames and if the file extension matches, add the filename to the path
-        # If the filetype is .py then find the example file that matches the .py
         for key,value in fileNames.items():
             if key == fileType:
                 file = value
@@ -147,9 +131,6 @@ def createStructure(fullPaths):
     print("All done! Check out the structure bitch.")
 
 def saveStructure(structure):
-    # Save the structure that the user creates
-    # Saves the string to a text file that the user can name
-    
     choice = input("Want to save the made structure to be used later?\n1. YES\n2. NO\n: ")
     if choice == "1":
         fileName = input("Name of the file: \n: ")
@@ -160,11 +141,6 @@ def saveStructure(structure):
         print("Structure was not saved.")
 
 def chooseStructure():
-    # Choose the structure that the user wants to use
-    # Iterates all the filenames from the /structures folder
-    # Splits it so it is shown without the file extension (.txt)
-    # Reads the chosen file and send the string to readStructure function
-    
     print("Choose a structure: \n")
     files = os.listdir("structures")
     number = 1
@@ -180,12 +156,10 @@ def chooseStructure():
 
     with open(chosenFile,'r') as exampleFile:
         data = exampleFile.read()
+    #print(data)
     readStructure(data)
-
-while True:
-    # Ask user what du hec it wants to do
-    # Loop until user decides to exit
     
+while True:
     print("\nWhat do you want to do?")
     choice = input("1. Use a predefined structure \n2. Preview the predefined structures\n3. Create your own\n4. Help\n0. Exit\n: ")
        
@@ -198,7 +172,7 @@ while True:
         showExamples()
         
     if choice == "3":
-        # Create own file structures
+        #make it somehow possible to do own structure
         createOwn()
 
     if choice == "0":
