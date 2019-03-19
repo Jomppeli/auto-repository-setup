@@ -1,6 +1,13 @@
 ## First version of the file structure script
 
-### API Test version 1.01
+### API Test version 1.02
+- Make it possible to clone the repository to a wanted location after the file structure has been created
+- WRITE BETTER DOCUMENTATION
+- DO SOME REFACTORING
+- Write the **Help** section in the code (to a external file, so it is easy to edit)
+- Aks for a description somehow
+
+### API Test version 1.01 | WORKING
 - Add different files (encode files to base64)
   - .py
   - .pdf
