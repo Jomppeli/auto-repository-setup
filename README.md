@@ -1,8 +1,10 @@
 # auto-repository-setup
-<img src="https://img.shields.io/github/languages/top/jomppeli/auto-repository-setup.svg?style=for-the-badge"> <img src="https://img.shields.io/github/repo-size/jomppeli/auto-repository-setup.svg?style=for-the-badge"> <img src="https://img.shields.io/github/issues/jomppeli/auto-repository-setup.svg?style=for-the-badge">  
+<img src="https://img.shields.io/github/languages/top/jomppeli/auto-repository-setup.svg?style=for-the-badge"> <img src="https://img.shields.io/github/repo-size/jomppeli/auto-repository-setup.svg?style=for-the-badge"> <img src="https://img.shields.io/github/issues/jomppeli/auto-repository-setup.svg?style=for-the-badge"> <img src="https://img.shields.io/github/issues-closed/jomppeli/auto-repository-setup.svg?style=for-the-badge">  
   
   
 Script to automatically setup a repository from command line with a wanted file structure.  
+[Issues in Kanban view](https://github.com/Jomppeli/auto-repository-setup/projects/2)  
+  
 Parameters:
 - repository name (needs to exist)
 - wanted file structure (choose from predefined structures or create own. See [examples](#Example-File-structures))
