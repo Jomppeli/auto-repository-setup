@@ -12,7 +12,7 @@ Parameters:
 Copy the **python** folder from **auto-repository-setup/dev/resources** to your computer.  
 Go to the same directory in your command line tool and run the script:  
 ```
-python test_version_1_01.py
+python3 test_version_1_01.py
 ```  
 Choose what to do:  
 ```  
