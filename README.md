@@ -42,7 +42,7 @@ What do you want to do?
 4. Help
 0. Exit
 ```
-Every example structure and every structure you create is shown here 
+Every example structure and every structure you create is shown here. The files are in **dev/resources/python/structures** folder.
 ```
 Choose a structure:
 
