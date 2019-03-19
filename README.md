@@ -8,7 +8,7 @@ Parameters:
 - wanted file structure (choose from predefined structures or create own see [examples](#Example-File-structures))
 - username/password
 
-### How to use
+## How to use
 Copy the **python** folder from **auto-repository-setup/dev/resources** to your computer.  
 Go to the same directory in your command line tool and run the script:  
 ```
@@ -65,12 +65,14 @@ Added!
 All done! Enjoy your beautiful file structure. <3
 ```
 The created structure in Github:  
+  
 ![image_header](https://github.com/Jomppeli/auto-repository-setup/blob/master/dev/documentation/images/2.PNG)
   
 
 The script recognizes the given file extensions and uses pre defined example files in the directories.  
 Example the JSON file:  
-![image_header](https://github.com/Jomppeli/auto-repository-setup/blob/master/dev/documentation/images/3PNG)
+  
+![image_header](https://github.com/Jomppeli/auto-repository-setup/blob/master/dev/documentation/images/3.PNG)
 
 
 
