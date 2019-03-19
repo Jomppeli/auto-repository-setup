@@ -3,7 +3,7 @@
 <img src="https://img.shields.io/github/tag/jomppeli/auto-repository-setup.svg?style=for-the-badge"> <img src="https://img.shields.io/github/languages/top/jomppeli/auto-repository-setup.svg?style=for-the-badge"> <img src="https://img.shields.io/github/repo-size/jomppeli/auto-repository-setup.svg?style=for-the-badge"> <img src="https://img.shields.io/github/issues/jomppeli/auto-repository-setup.svg?style=for-the-badge"> <img src="https://img.shields.io/github/issues-closed/jomppeli/auto-repository-setup.svg?style=for-the-badge">  
   
   
-Script to automatically setup a repository from command line with a wanted file structure.  
+### Script to automatically setup a repository from command line with a wanted file structure.  
 [Issues in Kanban view](https://github.com/Jomppeli/auto-repository-setup/projects/2)  
   
 Parameters:
@@ -150,7 +150,7 @@ Follow the instructions and create your own file structure:
 :---document.md
 :--readme.md
 ```
-The script recognizes the given file extensions and uses predefined example files as a placeholders. The example files can be found from **dev/resources/python/examplefiles**. The files are base64 encoded.  
+The script recognizes the given file extensions and uses predefined example files as placeholders. The example files can be found from **dev/resources/python/examplefiles**. The files are base64 encoded.  
   
 Continue and save the structure if needed or start over:
 ```
