@@ -4,6 +4,7 @@ import getpass
 import subprocess
 import os
 
+
 def showExamples():
     # Show the example structures
     # Print every file in /structure folder
