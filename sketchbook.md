@@ -1,3 +1,6 @@
+## #7
+Pushed test version 1.01 to production. 
+
 ## #6 
 Added some issues for the future.
 
