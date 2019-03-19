@@ -39,8 +39,7 @@ Username: jomppeli
 Password:
 ```
 After that, the script starts to create the file structure to the wanted repository.  
-It shows every file it tries to create and if the creation is succesful, it prints out a message.  
-After the structure is created, the script informs the user:
+It shows every file it tries to create and if the creation is succesful, it prints out a success message:  
 ```
 https://api.github.com/repos/jomppeli/testing/contents/projectname/dev/resources/js/example.js
 Added!
@@ -62,8 +61,15 @@ https://api.github.com/repos/jomppeli/testing/contents/projectname/README.md
 Added!
 https://api.github.com/repos/jomppeli/testing/contents/projectname/sketchbook.md
 Added!
-All done! Enjoy your beautiful file structure. <3
 ```
+After the structure is created, the script informs the user:  
+```
+All done! Enjoy your beautiful file structure. <3
+```  
+  
+The created structure in Sublime Text:  
+![image_header](https://github.com/Jomppeli/auto-repository-setup/blob/master/dev/documentation/images/4.PNG)
+  
 The created structure in Github:  
   
 ![image_header](https://github.com/Jomppeli/auto-repository-setup/blob/master/dev/documentation/images/2.PNG)
