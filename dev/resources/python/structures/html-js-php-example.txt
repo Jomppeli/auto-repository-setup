@@ -1,0 +1,1 @@
+-projectname%--dev%---resources%----js%-----example.js%----css%-----example.css%----php%-----example.php%----data%-----example.json%----images%-----example.txt%----index.php%---vendor%----example.js%--documentation%---example.md%--README.md%--sketchbook.md

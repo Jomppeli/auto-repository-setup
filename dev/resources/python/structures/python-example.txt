@@ -1,0 +1,1 @@
+-projectname%--dev%---resources%----data%-----example.json%----python%-----example.py%--documentation%---example.md%--README.md%--sketchbook.md

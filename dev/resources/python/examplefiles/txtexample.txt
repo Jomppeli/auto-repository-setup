@@ -1,4 +1,4 @@
-{"message":"auto-repo-setup readme","committer":
+{"message":"auto-repo-setup txt","committer":
 {"name":"James",
 "email":"autorepo@mustola"},
 "content":"VGhpcyB3YXMgYWRkZWQgd2l0aCBhdXRvLXJlcG8tc2V0dXAgLSBzY3JpcHQuIE5pY2Uu"}

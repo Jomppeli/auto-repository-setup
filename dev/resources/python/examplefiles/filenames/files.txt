@@ -1,0 +1,1 @@
+{"txt":"examplefiles/txtexample.txt","py":"examplefiles/pyexample.txt","json":"examplefiles/jsonexample.txt","md":"examplefiles/mdexample.txt","js":"examplefiles/jsexample.txt","css":"examplefiles/cssexample.txt","php":"examplefiles/phpexample.txt"}

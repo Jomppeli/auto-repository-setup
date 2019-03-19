@@ -1,0 +1,4 @@
+{"message":"auto-repo-setup md","committer":
+{"name":"James",
+"email":"autorepo@mustola"},
+"content":"IyMgQXV0by1yZXBvLXNldHVwICANClRoaXMgZmlsZSB3YXMgY3JlYXRlZCB3aXRoIGF1dG8tcmVwby1zZXR1cCBzY3JpcHQuICAgDQojIE5pY2U="}

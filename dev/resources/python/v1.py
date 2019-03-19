@@ -3,9 +3,11 @@ import json
 import getpass
 import subprocess
 
-data1 = open('example.txt')
+
 
 repo = input("Repository name: ")
+
+data1 = open('example.txt')
 username = input("Username: ")
 password = getpass.getpass("Password: ")
 
@@ -17,9 +19,8 @@ data1, auth=(username, password))
 print(response)
 print(response.json())
 
-data2 = open('example.txt')
+data2 = open('pyexample.txt')
 filename2 = "example.py"
-print("second")
 response2=requests.put('https://api.github.com/repos/%s/%s/contents/test/dev/resources/python/%s'
 % (username,repo,filename2),
 data2, auth=(username, password))
