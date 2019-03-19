@@ -12,7 +12,6 @@ Parameters:
 Goal is to do it with Python3 using the Github API. 
   
 [API documentation](https://developer.github.com/v3/) from Github.  
-[My synopsis]().
 
 ## Example File structures
 ### HTML, Javascript, PHP project
