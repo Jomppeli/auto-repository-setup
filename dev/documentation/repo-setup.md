@@ -7,6 +7,7 @@
 - Write the **Help** section in the code (to a external file, so it is easy to edit)
 - Aks for a description somehow
 - Add more example files
+- Make it possible to make the repository private after the structure has been created
 
 ### API Test version 1.01 | WORKING
 - Add different files (encode files to base64)
