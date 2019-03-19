@@ -98,6 +98,74 @@ For example the JSON file:
   
 ![image_header](https://github.com/Jomppeli/auto-repository-setup/blob/master/dev/documentation/images/3.PNG)
 
+### 2. Preview the predefined file structures
+Type 2 and hit enter. The script shows all example files and structures that you have created and saved:
+```
+Choose a structure:
+
+1. example-structure
+2. html-js-php-example
+3. python-example
+4. teststructure
+5. the-best
+```
+After choosing one of the examples, the script then prints out the file structure:
+```
+-projectname
+--dev
+---resources
+----data
+-----example.json
+----python
+-----example.py
+--documentation
+---example.md
+--README.md
+--sketchbook.md
+```
+From here you can see the whole structure that would be created, if you choose to use the given example.  
+### 3. Creating own file structures
+Type 3 in the main menu and hit enter. The script gives information of the creation process:
+```
+Create your own file structure by giving an input and pressing enter.
+Use dashes as an indentation to make nested structures.
+For example:
+-Folder1
+--fileinfolder1.txt
+--folderinsidefolder1
+-Folder2
+To add an file, give it a file extension e.g file.txt.
+Every item without extension is treated as a directory.
+When the structure is ready, press enter.
+
+THE STRUCRUTE HAS TO BE ORDERED FOR IT TO WORK!
+```
+Follow the instructions and create your own file structure:
+```
+:-testproject
+:--development
+:---example.py
+:---tasklist.md
+:--documentation
+:---document.md
+:--readme.md
+```
+Continue and save the structure if needed or start over:
+```
+1. Continue
+2. Start over
+```
+Save the structure with a wanted filename:
+```
+Want to save the made structure to be used later?
+1. YES
+2. NO
+:1
+Name of the file:
+: the-best-structure
+the-best-structure saved!
+```
+The creation is now done. You can use the creation straight away and enjoy your beautiful file structure!
 
 
 
