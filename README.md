@@ -22,6 +22,7 @@ python3 test_version_1_01.py
 ### [1. Using predefined file structures](#Using-predefined-file-structures)
 ### [2. Previewing the predefined file structures](#)
 ### [3. Creating own file structures](#)
+---
 
 ### 1. Using predefined file structures
 Type number 1 and hit enter:  
