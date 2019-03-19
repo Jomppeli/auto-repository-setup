@@ -7,7 +7,7 @@ Parameters:
 - repository name (needs to exist)
 - wanted file structure (choose from predefined structures or create own)
 - username/password
-- more ?
+
 
 Goal is to do it with Python3 using the Github API. 
   
