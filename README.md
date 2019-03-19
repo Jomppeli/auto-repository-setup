@@ -150,6 +150,8 @@ Follow the instructions and create your own file structure:
 :---document.md
 :--readme.md
 ```
+The script recognizes the given file extensions and uses predefined example files as a placeholders. The example files can be found from **dev/resources/python/examplefiles**. The files are base64 encoded.  
+  
 Continue and save the structure if needed or start over:
 ```
 1. Continue
