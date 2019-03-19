@@ -5,10 +5,10 @@
 Script to automatically setup a repository from command line with a wanted file structure.  
 Parameters:
 - repository name (needs to exist)
-- wanted file structure (choose from predefined structures or create own see [examples](#Example-File-structures))
+- wanted file structure (choose from predefined structures or create own. See [examples](#Example-File-structures))
 - username/password
 
-### How to use
+## How to use
 Copy the **python** folder from **auto-repository-setup/dev/resources** to your computer.  
 Go to the same directory in your command line tool and run the script:  
 ```
@@ -39,8 +39,7 @@ Username: jomppeli
 Password:
 ```
 After that, the script starts to create the file structure to the wanted repository.  
-It shows every file it tries to create and if the creation is succesful, it prints out a message.  
-After the structure is created, the script informs the user:
+It shows every file it tries to create and if the creation is succesful, it prints out a success message:  
 ```
 https://api.github.com/repos/jomppeli/testing/contents/projectname/dev/resources/js/example.js
 Added!
@@ -62,15 +61,24 @@ https://api.github.com/repos/jomppeli/testing/contents/projectname/README.md
 Added!
 https://api.github.com/repos/jomppeli/testing/contents/projectname/sketchbook.md
 Added!
-All done! Enjoy your beautiful file structure. <3
 ```
+After the structure is created, the script informs the user:  
+```
+All done! Enjoy your beautiful file structure. <3
+```  
+  
+The created structure in Sublime Text:  
+![image_header](https://github.com/Jomppeli/auto-repository-setup/blob/master/dev/documentation/images/4.PNG)
+  
 The created structure in Github:  
-![image_header](src/dev/documentation/images/2.png "File structure") 
+  
+![image_header](https://github.com/Jomppeli/auto-repository-setup/blob/master/dev/documentation/images/2.PNG)
   
 
 The script recognizes the given file extensions and uses pre defined example files in the directories.  
 Example the JSON file:  
-![image_header](src/dev/documentation/images/3.png "JSON file")
+  
+![image_header](https://github.com/Jomppeli/auto-repository-setup/blob/master/dev/documentation/images/3.PNG)
 
 
 
