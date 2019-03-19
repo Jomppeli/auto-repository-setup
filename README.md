@@ -5,7 +5,7 @@
 Script to automatically setup a repository from command line with a wanted file structure.  
 Parameters:
 - repository name (needs to exist)
-- wanted file structure (choose from predefined structures or create own see [examples](#Example File structures))
+- wanted file structure (choose from predefined structures or create own see [examples](#Example-File-structures))
 - username/password
 
 ### How to use
