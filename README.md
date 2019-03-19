@@ -76,7 +76,7 @@ The created structure in Github:
   
 
 The script recognizes the given file extensions and uses pre defined example files in the directories.  
-Example the JSON file:  
+For example the JSON file:  
   
 ![image_header](https://github.com/Jomppeli/auto-repository-setup/blob/master/dev/documentation/images/3.PNG)
 
