@@ -1,7 +1,7 @@
 # auto-repository-setup
 
 <img src="https://img.shields.io/github/tag/jomppeli/auto-repository-setup.svg?style=for-the-badge"> <img src="https://img.shields.io/github/languages/top/jomppeli/auto-repository-setup.svg?style=for-the-badge"> <img src="https://img.shields.io/github/repo-size/jomppeli/auto-repository-setup.svg?style=for-the-badge"> <img src="https://img.shields.io/github/issues/jomppeli/auto-repository-setup.svg?style=for-the-badge">  
-<img src="https://forthebadge.com/images/badges/made-with-python.svg"> <img src="https://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg">
+<img src="https://forthebadge.com/images/badges/made-with-python.svg"> [![forthebadge](https://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg)](https://forthebadge.com)
   
   
 ### Script to automatically setup a repository from command line with a wanted file structure.  
