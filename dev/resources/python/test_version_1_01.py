@@ -145,7 +145,7 @@ def createStructure(fullPaths):
                 if statusCode == 201:
                     print("Added!")
                 #print(response.json())
-    print("All done! Check out the structure bitch.")
+    print("All done! Enjoy your beautiful file structure. <3")
 
 def saveStructure(structure):
     # Save the structure that the user creates
