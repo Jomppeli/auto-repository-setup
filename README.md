@@ -33,7 +33,7 @@ Parameters:
 - username/password
 
 ## How to use
-Copy the **python** folder from **auto-repository-setup/dev/resources** to your computer.  
+Copy the `python` folder from `auto-repository-setup/dev/resources` to your computer.  
 Go to the same directory in your command line tool and run the script:  
 ```
 python3 test_version_1_01.py
