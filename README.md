@@ -5,7 +5,7 @@
   
   
 ### Script to automatically setup a repository from command line with a wanted file structure.  
-**The script adds folders and files in wanted order and structures to a Github repository in seconds and saves you the manual work of creating folders and files inside eachother.**  
+**The script use Githubs API to add folders and files in wanted order and structures to a Github repository in seconds and saves you the manual work of creating folders and files inside eachother.**  
   
 Example file structure that can be created in seconds:
 - projectname
