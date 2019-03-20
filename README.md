@@ -146,7 +146,7 @@ After choosing one of the examples, the script then prints out the file structur
 ```
 From here you can see the whole structure that would be created, if you choose to use the given example.  
 ### 3. Creating own file structures
-Type 3 in the main menu and hit enter. The script gives information of the creation process:
+Type 3 in the main menu and hit enter. The script gives information about the creation process:
 ```
 Create your own file structure by giving an input and pressing enter.
 Use dashes as an indentation to make nested structures.
