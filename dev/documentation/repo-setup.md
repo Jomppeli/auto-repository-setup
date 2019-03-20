@@ -1,8 +1,9 @@
-## First version of the file structure script
+## First versions of the file structure script
 
 ### API Test version 1.02
 - Check the issues boii
 - Make it possible to clone the repository to a wanted location after the file structure has been created
+- Make it possible to save structures without using them
 - **WRITE BETTER DOCUMENTATION**
 - DO SOME REFACTORING
 - Write the **Help** section in the code (to a external file, so it is easy to edit)
