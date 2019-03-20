@@ -6,6 +6,21 @@
 ### Script to automatically setup a repository from command line with a wanted file structure.  
 **The script adds folders and files in wanted order and structures to a Github repository in seconds and saves you the manual work of creating folders and files inside eachother.**  
   
+Example file structure that can be created in seconds:
+- projectname
+  - dev
+    - test.py
+    - site.html
+  - documentation
+    - docs.md
+  - data
+    - user_data.json
+  - images
+    - background.png
+  - README.md
+  
+The script recognizes file extensions and uses the right type of predefined files as placeholders. See below. 
+  
 [Issues in Kanban view](https://github.com/Jomppeli/auto-repository-setup/projects/2)  
 ## Why?
 Makes the setup of new projects very fast and efficient, and if you do same kind of projects all of the time (e.g webdev), you dont need to do the same things over and over again. Just select or create a wanted file structure and use that every time you start a new project.  
