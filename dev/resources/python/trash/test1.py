@@ -2,7 +2,7 @@ import requests
 import json
 import getpass
 
-data = open('data.txt')
+#data = open('data.txt')
 
 repo = input("repo: ")
 username = input("Username: ")

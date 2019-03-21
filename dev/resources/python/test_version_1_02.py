@@ -153,10 +153,28 @@ def createStructure(fullPaths):
                 print(url)
                 response =requests.put(url,data, auth=(username, password))
                 statusCode = response.status_code
+                print(statusCode)
                 if statusCode == 201:
                     print("Added!")
-                #print(response.json())
+                if statusCode == 404:
+                    response = response.json()
+                    responseMessage = response["message"]
+                    if responseMessage == "Not Found":
+                        print("Repository not found. Wanna make a repo a sitoryi?")
+                        createRepository(username,password,repo)
+                if statusCode == 401:
+                    response = response.json()
+                    responseMessage = response["message"]
+                    print(responseMessage)
+                    
+                
     print("All done! Enjoy your beautiful file structure. <3")
+    cloneRepo(username,repo)
+
+def createRepository(username,password,repo):
+    # Function to create a repository if it doesn't exist yet
+    # Should propably ask something like, description, public/private etc
+    data = '{"name":repo}'
 
 def saveStructure(structure):
     # Save the structure that the user creates
@@ -204,7 +222,7 @@ def redirect(structure):
     if choice == "2":
         pass
 
-def cloneRepo(username, password,repo):
+def cloneRepo(username,repo):
     # Function to clone the repository that is in question
     # Change repository settings (private/public)
     # Give the path where the repository should be cloned or clone here
