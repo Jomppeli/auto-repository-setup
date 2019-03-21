@@ -204,7 +204,60 @@ def redirect(structure):
     if choice == "2":
         pass
 
+def cloneRepo(username, password,repo):
+    # Function to clone the repository that is in question
+    # Change repository settings (private/public)
+    # Give the path where the repository should be cloned or clone here
 
+    while True:
+        choice = input("Clone the repository?(y/n): ")
+        if choice == "y":
+            # Get the location
+            directory = getDirectory(repo)
+            subprocess.run(["git","clone","https://github.com/%s/%s" % (username,repo),"%s" % (directory)])
+            break
+        if choice == "n":
+            print("Not cloning the repository")
+            break
+        else:
+            print("Check the input.")
+
+
+
+def getDirectory(repo):
+    # Function to ask the directory where the user want's to clone the repo
+
+    currentWorkingDir = os.getcwd()
+    print("Clone to \"%s?\"" % currentWorkingDir)
+    x = 0
+    while x == 0:
+        userInput = input("Press enter to clone to the current directory, or write the wanted directory\n: ")
+        if userInput == "":
+            print("Cloning to %s" % currentWorkingDir)
+            selectedDirectory = currentWorkingDir
+            x = 1
+        else:
+            dirExists = os.path.isdir(userInput)
+            if dirExists == True:
+                print("Clone to %s?" % userInput)
+                while True:
+                    x = input("y/n: ")
+                    if x == "y":
+                        print("Cloning to %s" % userInput)
+                        selectedDirectory = userInput
+                        x = 1
+                        break
+                    if x == "n":
+                        print("Try again.")
+                        x = 0
+                        break
+                    else:
+                        print("Write \"y\" or \"n\"")
+            else:
+                print("Directory doesn't exist. Check spelling.")
+
+    selectedDirectory = selectedDirectory + "/" + repo
+    return selectedDirectory
 
 while True:
     # Ask user what du hec it wants to do
