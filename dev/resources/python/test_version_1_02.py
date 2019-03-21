@@ -9,6 +9,7 @@ def showExamples():
     # Show the example structures
     # Print every file in /structure folder
     # Take out the file extension (.txt) and print only the name
+    # Then send the string to structurePreview to display it to user
     
     print("\nChoose a structure: \n")
     files = os.listdir("structures")
@@ -26,14 +27,21 @@ def showExamples():
     # Split every directory and file, and then print the line
     with open(chosenFile,'r') as exampleFile:
         data = exampleFile.read()
-        data = data.split("%")
-        indx = 0
-        while True:
-            try:
-                print(data[indx])
-                indx += 1
-            except IndexError:
-                break
+    structurePreview(data)
+
+
+def structurePreview(structure):
+	# Split the structure string and display the structure to the user
+
+	print("\nPreview of the structure:")
+	data = structure.split("%")
+	indx = 0
+	while True:
+		try:
+			print(data[indx])
+			indx += 1
+		except IndexError:
+			break
 
 def createOwn():
     # Get user input of structure creation and use it to create a wanted file structure
@@ -45,14 +53,16 @@ def createOwn():
     print("For example:\n-Folder1\n--fileinfolder1.txt\n--folderinsidefolder1\n-Folder2")
     print("To add an file, give it a file extension e.g file.txt.")
     print("Every item without extension is treated as a directory.")
-    print("When the structure is ready, press enter.\n")
-    print("THE STRUCRUTE HAS TO BE ORDERED FOR IT TO WORK!\n")
+    print("When the structure is ready, press enter on a empty line.\n")
+    print("THE STRUCRUTE HAS TO BE ORDERED FOR IT TO WORK!")
     inp2 = ""
     while True:
         inp = input(":")
         if inp == "":
             cn = input("1. Continue\n2. Start over\n:")
             if cn == "1":
+            	# Preview the structure
+                structurePreview(inp2)
                 # function to save the created structure to use later
                 saveStructure(inp2)
                 # Handle the input in different function
