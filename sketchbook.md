@@ -1,3 +1,6 @@
+## #9
+Added a GPG key so I can sign my commits.
+
 ## #8
 Started to code the next version.
 
